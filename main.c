@@ -80,24 +80,5 @@ int main() {
     pthread_join(thread[i], NULL);
   }
 
-  // test_poll(0);
-  // print_data();
-
-  // for (int i = 1; i < 10; i++) {
-  //   insert(i, 2 * i);
-  //   // printf("%d\n", i);
-  //   // remove_node(i);
-  // }
-
-  // insert(1, 2);
-  // print_data();
-
-  // for (int i = 1; i < 10; i++) {
-  //   // insert(i, 2 * i);
-  //   // printf("%d\n", i);
-  //   remove_node(i);
-  // }
-  // print_data();
-
   return 0;
 }
